@@ -12,7 +12,7 @@ const items = computed<NavigationMenuItem[]>(() => [
   {
     label: 'Quest board',
     to: '/quests',
-    active: route.path.startsWith('/leaderboard')
+    active: route.path.startsWith('/quests')
   },
   {
     label: 'Admin',
@@ -32,9 +32,7 @@ const items = computed<NavigationMenuItem[]>(() => [
     <template #title>
       <Logo class="h-6 w-auto" />
     </template>
-
     <UNavigationMenu :items="items" />
-
     <template #right>
       <UColorModeButton />
     </template>
