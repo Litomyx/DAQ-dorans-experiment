@@ -1,3 +1,7 @@
 <template> 
-this is page 1
+<title>
+    DAQ App
+</title>    
+<h1>
+</h1>
 </template>     
