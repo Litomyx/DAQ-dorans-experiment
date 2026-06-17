@@ -22,7 +22,7 @@ const items = computed<NavigationMenuItem[]>(() => [
   {
     label: 'Calendar',
     to: '/calendar',
-    active: route.path.startsWith('/admin')
+    active: route.path.startsWith('/calendar')
   }
 ])
 </script>
